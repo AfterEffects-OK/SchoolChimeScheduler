@@ -2159,7 +2159,7 @@ const App = () => {
                                 </div>
                                 <div className="grid grid-cols-2 gap-4">
                                     <div>
-                                        <label className="block text-sm font-bold text-gray-600 dark:text-gray-400 mb-1">Owner (ユーザー名)</label>
+                                        <label className="block text-sm font-bold text-gray-600 dark:text-gray-400 mb-1">Owner (ユーザー名 / Username)</label>
                                         <input type="text" placeholder="ExampleUser" value={githubConfig.owner} onChange={(e) => setGithubConfig({...githubConfig, owner: e.target.value})} className="w-full p-2 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100 rounded text-sm" />
                                     </div>
                                     <div>
@@ -2235,7 +2235,7 @@ const App = () => {
                                         <li><a href="https://github.com/signup" target="_blank" rel="noreferrer" className="text-blue-600 dark:text-blue-400 underline font-bold">作成ページ(Sign up)</a>へアクセス</li>
                                         <li><strong>Email</strong>: メールアドレスを入力</li>
                                         <li><strong>Password</strong>: パスワードを設定 (15文字以上 または 8文字以上+数字)</li>
-                                        <li><strong>Username</strong>: ユーザー名を設定 (英数字)</li>
+                                        <li><strong>Username</strong>: ユーザー名を設定 (英数字 / ※これが設定画面の Owner になります)</li>
                                         <li><strong>Verify</strong>: パズルを解いてロボット認証し、メールの数字コードを入力</li>
                                     </ol>
                                     <p className="text-xs text-gray-500 dark:text-gray-400">
