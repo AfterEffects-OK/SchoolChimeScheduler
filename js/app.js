@@ -2230,14 +2230,24 @@ const App = () => {
                             <div className="p-6 space-y-4 text-sm text-gray-700 dark:text-gray-300">
                                 <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg border border-gray-200 dark:border-gray-600 mb-4">
                                     <h4 className="font-bold text-gray-800 dark:text-gray-200 mb-2">アカウントをお持ちでない場合</h4>
-                                    <p className="mb-2">この機能を利用するには、GitHubアカウント（無料）が必要です。</p>
-                                    <a href="https://github.com/signup" target="_blank" rel="noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline font-bold flex items-center gap-1 w-fit">
-                                        アカウント作成ページへ (GitHub公式サイト) <IconExport className="w-3 h-3" />
-                                    </a>
-                                    <p className="mt-2 text-xs text-gray-500 dark:text-gray-400">
-                                        ※アカウントを作成せずに利用したい場合は、Google DriveやDropboxなどに音源を保存し、「URLから追加」機能をご利用ください。
+                                    <p className="mb-2 text-xs">GitHubは英語サイトですが、以下の手順で無料で作成できます。</p>
+                                    <ol className="list-decimal list-inside space-y-1 text-xs mb-3 text-gray-600 dark:text-gray-400">
+                                        <li><a href="https://github.com/signup" target="_blank" rel="noreferrer" className="text-blue-600 dark:text-blue-400 underline font-bold">作成ページ(Sign up)</a>へアクセス</li>
+                                        <li><strong>Email</strong>: メールアドレスを入力</li>
+                                        <li><strong>Password</strong>: パスワードを設定 (15文字以上 または 8文字以上+数字)</li>
+                                        <li><strong>Username</strong>: ユーザー名を設定 (英数字)</li>
+                                        <li><strong>Verify</strong>: パズルを解いてロボット認証し、メールの数字コードを入力</li>
+                                    </ol>
+                                    <p className="text-xs text-gray-500 dark:text-gray-400">
+                                        ※アカウントを作らない場合は、Google Drive等に音源を保存し「URLから追加」をご利用ください。
                                     </p>
                                 </div>
+                                <h4 className="font-bold text-gray-800 dark:text-gray-200 border-b dark:border-gray-600 pb-2">リポジトリの作成手順 (保存場所を作る)</h4>
+                                <ol className="list-decimal list-inside space-y-1 text-xs mb-4 text-gray-600 dark:text-gray-400">
+                                    <li>画面右上の <strong>「+」</strong> アイコンから <strong>New repository</strong> を選択</li>
+                                    <li><strong>Repository name</strong> に名前を入力（例: <code>school-chime-data</code>）</li>
+                                    <li><strong>Public</strong> (公開) か <strong>Private</strong> (非公開) を選択し、<strong>Create repository</strong> をクリック</li>
+                                </ol>
                                 <h4 className="font-bold text-gray-800 dark:text-gray-200 border-b dark:border-gray-600 pb-2">トークン取得手順 (アカウントをお持ちの方)</h4>
                                 <ol className="list-decimal list-inside space-y-3">
                                     <li>GitHubにログインし、画面右上のプロフィール画像をクリックして <strong>Settings</strong> を開きます。</li>
