@@ -1,0 +1,4 @@
+/* bodyの背景はReactのルート要素でTailwindクラスを使って設定します */
+.digital-clock {
+    font-variant-numeric: tabular-nums;
+}

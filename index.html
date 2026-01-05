@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スクールチャイム管理システム</title>
+    
+    <!-- React & ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Tailwind CSS (ライブラリ本体を先にロード) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind CSS 設定: ダークモードを 'class' に設定 (tailwindが定義された後に実行) -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class', 
+        }
+    </script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- カスタムCSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="root"></div>
+    <!-- 外部JSファイルの読み込み -->
+    <script type="text/babel" src="js/app.js"></script>
+</body>
+</html>
