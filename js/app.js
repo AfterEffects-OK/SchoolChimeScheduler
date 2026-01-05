@@ -2228,6 +2228,17 @@ const App = () => {
                                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100">GitHubトークンの取得手順</h3>
                             </div>
                             <div className="p-6 space-y-4 text-sm text-gray-700 dark:text-gray-300">
+                                <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg border border-gray-200 dark:border-gray-600 mb-4">
+                                    <h4 className="font-bold text-gray-800 dark:text-gray-200 mb-2">アカウントをお持ちでない場合</h4>
+                                    <p className="mb-2">この機能を利用するには、GitHubアカウント（無料）が必要です。</p>
+                                    <a href="https://github.com/signup" target="_blank" rel="noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline font-bold flex items-center gap-1 w-fit">
+                                        アカウント作成ページへ (GitHub公式サイト) <IconExport className="w-3 h-3" />
+                                    </a>
+                                    <p className="mt-2 text-xs text-gray-500 dark:text-gray-400">
+                                        ※アカウントを作成せずに利用したい場合は、Google DriveやDropboxなどに音源を保存し、「URLから追加」機能をご利用ください。
+                                    </p>
+                                </div>
+                                <h4 className="font-bold text-gray-800 dark:text-gray-200 border-b dark:border-gray-600 pb-2">トークン取得手順 (アカウントをお持ちの方)</h4>
                                 <ol className="list-decimal list-inside space-y-3">
                                     <li>GitHubにログインし、画面右上のプロフィール画像をクリックして <strong>Settings</strong> を開きます。</li>
                                     <li>左サイドバーの一番下にある <strong>Developer settings</strong> をクリックします。</li>
