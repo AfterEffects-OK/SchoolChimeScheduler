@@ -2245,7 +2245,7 @@ const App = () => {
                                 <h4 className="font-bold text-gray-800 dark:text-gray-200 border-b dark:border-gray-600 pb-2">リポジトリの作成手順 (保存場所を作る)</h4>
                                 <ol className="list-decimal list-inside space-y-1 text-xs mb-4 text-gray-600 dark:text-gray-400">
                                     <li>画面右上の <strong>「+」</strong> アイコンから <strong>New repository</strong> を選択</li>
-                                    <li><strong>Repository name</strong> に名前を入力（例: <code>school-chime-data</code> / ※これが設定画面の OwnerRepository (リポジトリ名) になります）</li>
+                                    <li><strong>Repository name</strong> に名前を入力（例: <code>school-chime-data</code> / ※これが設定画面の Repository (リポジトリ名) になります）</li>
                                     <li><strong>Public</strong> (公開) か <strong>Private</strong> (非公開) を選択し、<strong>Create repository</strong> をクリック</li>
                                 </ol>
                                 <h4 className="font-bold text-gray-800 dark:text-gray-200 border-b dark:border-gray-600 pb-2">トークン取得手順 (アカウントをお持ちの方)</h4>
