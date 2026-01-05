@@ -2235,7 +2235,7 @@ const App = () => {
                                         <li><a href="https://github.com/signup" target="_blank" rel="noreferrer" className="text-blue-600 dark:text-blue-400 underline font-bold">作成ページ(Sign up)</a>へアクセス</li>
                                         <li><strong>Email</strong>: メールアドレスを入力</li>
                                         <li><strong>Password</strong>: パスワードを設定 (15文字以上 または 8文字以上+数字)</li>
-                                        <li><strong>Username</strong>: ユーザー名を設定 (英数字 / ※これが設定画面の Owner になります)</li>
+                                        <li><strong>Username</strong>: ユーザー名を設定 (英数字 / ※これが設定画面の Owner (ユーザー名) になります)</li>
                                         <li><strong>Verify</strong>: パズルを解いてロボット認証し、メールの数字コードを入力</li>
                                     </ol>
                                     <p className="text-xs text-gray-500 dark:text-gray-400">
@@ -2245,7 +2245,7 @@ const App = () => {
                                 <h4 className="font-bold text-gray-800 dark:text-gray-200 border-b dark:border-gray-600 pb-2">リポジトリの作成手順 (保存場所を作る)</h4>
                                 <ol className="list-decimal list-inside space-y-1 text-xs mb-4 text-gray-600 dark:text-gray-400">
                                     <li>画面右上の <strong>「+」</strong> アイコンから <strong>New repository</strong> を選択</li>
-                                    <li><strong>Repository name</strong> に名前を入力（例: <code>school-chime-data</code>）</li>
+                                    <li><strong>Repository name</strong> に名前を入力（例: <code>school-chime-data</code> / ※これが設定画面の OwnerRepository (リポジトリ名) になります）</li>
                                     <li><strong>Public</strong> (公開) か <strong>Private</strong> (非公開) を選択し、<strong>Create repository</strong> をクリック</li>
                                 </ol>
                                 <h4 className="font-bold text-gray-800 dark:text-gray-200 border-b dark:border-gray-600 pb-2">トークン取得手順 (アカウントをお持ちの方)</h4>
